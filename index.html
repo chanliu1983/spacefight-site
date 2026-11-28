@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The Long Return is a phone-first turn-based space strategy game with six capital classes, offline matches, and Game Center achievements and leaderboards.">
+  <title>The Long Return — Capital fleets. One relic.</title>
+  <style>
+    :root { color-scheme: dark; --gold: #f4c35f; --cyan: #79d7ff; --ink: #07101f; --panel: #101e32; }
+    * { box-sizing: border-box; }
+    body { margin: 0; color: #e9f2ff; background: radial-gradient(circle at 70% 0, #183454, var(--ink) 55%); font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    a { color: var(--cyan); }
+    header, main, footer { max-width: 1100px; margin: auto; padding: 32px 24px; }
+    nav { display: flex; gap: 24px; flex-wrap: wrap; }
+    nav a { text-decoration: none; }
+    .hero { padding: 72px 0 40px; }
+    h1 { max-width: 800px; margin: 0; color: #fff; font-size: clamp(42px, 8vw, 82px); line-height: 1.05; letter-spacing: .03em; }
+    h2 { color: #fff; margin-top: 0; }
+    .tagline { color: var(--gold); font-size: 22px; }
+    .lead { max-width: 760px; font-size: 20px; color: #c2d5ed; }
+    .badge { display: inline-block; margin-top: 18px; padding: 10px 18px; border: 1px solid #5d7694; border-radius: 6px; color: #fff; background: #0b1728; }
+    .screenshot { width: 100%; height: auto; display: block; border: 1px solid #2d4969; border-radius: 10px; }
+    .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin: 28px 0; }
+    .card { padding: 22px; background: color-mix(in srgb, var(--panel) 90%, transparent); border: 1px solid #29425f; border-radius: 10px; }
+    .card p { color: #b8cbe2; }
+    section { margin: 56px 0; }
+    footer { color: #a7bad1; border-top: 1px solid #29425f; }
+    @media (max-width: 720px) { .grid { grid-template-columns: 1fr; } .hero { padding-top: 42px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <nav aria-label="Main navigation">
+      <a href="#game">The Game</a>
+      <a href="#game-center">Game Center</a>
+      <a href="#support">Support</a>
+      <a href="privacy.html">Privacy</a>
+    </nav>
+    <div class="hero">
+      <h1>THE LONG RETURN</h1>
+      <p class="tagline">Capital fleets. One relic.</p>
+      <p class="lead">Build an interstellar economy, command six distinct capital classes, and win through positioning, logistics, and tactical firepower.</p>
+      <span class="badge">iPhone · iOS 16+ · Offline play</span>
+    </div>
+    <img class="screenshot" src="assets/00-splash.jpg" alt="The Long Return fleet gathered around an ancient relic">
+  </header>
+  <main>
+    <section id="game">
+      <h2>Every capital has a role</h2>
+      <div class="grid">
+        <article class="card"><h3>Build your empire</h3><p>Settle complementary worlds, recover ship designs, balance people and energy, and keep your fleets supplied.</p></article>
+        <article class="card"><h3>Master firing arcs</h3><p>Combine all-round kinetic turrets, laser broadsides, long-range plasma bows, signature abilities, and planetary cover.</p></article>
+        <article class="card"><h3>Protect the Navigator</h3><p>Win through the relic, eliminate rival Navigators, or lead on score when the final turn arrives.</p></article>
+      </div>
+      <img class="screenshot" src="assets/03-system.jpg" alt="A capital ship selected in a planetary system with movement and combat controls">
+    </section>
+    <section id="game-center">
+      <h2>Compete at your own pace</h2>
+      <p>Standard and Quick matches work offline against AI. Optional Game Center sign-in adds five achievements, High Score and Swift Victory leaderboards, plus 1v1 auto-match and friend invitations. There is no public chat, advertising, or in-app purchase.</p>
+    </section>
+    <section id="support">
+      <h2>Support</h2>
+      <p>For help, bug reports, or feedback, email <a href="mailto:chan.liu1983@gmail.com">chan.liu1983@gmail.com</a> or use the <a href="https://github.com/chanliu1983/spacefight-site/issues/new">public issue tracker</a>. Include your iPhone model, iOS version, game version, and a description of what you expected and saw. Do not include passwords or private account details.</p>
+      <p>The title screen includes a guided How to Play tutorial. Matches save automatically; Continue resumes the current match.</p>
+    </section>
+  </main>
+  <footer>
+    <p>The Long Return · <a href="privacy.html">Privacy policy</a> · <a href="https://github.com/chanliu1983/spacefight-site">Site and issue tracker</a></p>
+  </footer>
+</body>
+</html>
